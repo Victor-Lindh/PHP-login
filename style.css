@@ -1,0 +1,122 @@
+                        /* LOGIN-SIDAN */
+body{
+    background: linear-gradient(to left, darkslategray, lightslategray);
+    display: flex;
+}
+legend{
+    font-family: 'Lobster', cursive;
+    font-size: .6em;
+    color: darkslategray;
+}
+label{
+    color: darkslategray;
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+}
+input{
+    margin-top: 5px;
+    width: 75%;
+}
+button{
+    font-family: 'Lobster', cursive;
+    background-color: steelblue;
+    color: whitesmoke;
+    font-size: 1em;
+    outline: 1px solid black;
+    padding: 5px;
+}
+form{
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    background-color: steelblue;
+    border: 1px solid darkslategray;
+    outline: 1px darkgrey;
+}
+#logindiv{
+    font-size: 2em;
+}
+#regDiv{
+    margin-left: 25%;
+    font-size: 2em;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#msgDiv, #emptyDiv{
+    background-color: crimson;
+    height: 80px;
+    text-align: center;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+#msg, #emptyMsg{
+    font-size: 1em;
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    padding: 5px;
+
+}
+                        /* INLOGGAT LÄGE */
+#loggedIn{
+    display: unset;
+}
+h2,h3{
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+#noContent{
+    font-family: 'Lobster', cursive;
+    color: whitesmoke;
+}
+textarea{
+    resize: none;
+    font-family: Arial;
+}
+#logOutBtn{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.5em;
+    font-family: 'Lobster', cursive;
+    background-color: darkslategray;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    display: block;
+}
+header{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 2px solid whitesmoke;
+}
+#entryform{
+    border: 2px solid black;
+}
+
+main{
+    display: flex;
+}
+.postDiv{
+    font-family: 'Lobster', cursive;
+    border: 1px solid black;
+    color: steelblue;
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    text-align: left;
+    word-break: break-all;
+    max-width: 90%;
+}
+.deleteEntry{
+    background-color: crimson;
+}
+.deleteEntry a{
+    color: whitesmoke;
+}
