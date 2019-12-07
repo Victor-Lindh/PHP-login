@@ -1,6 +1,6 @@
                         /* LOGIN-SIDAN */
 body{
-    background: linear-gradient(to left, darkslategray, lightslategray);
+    background: linear-gradient(to left, darkslategray, gray);
     display: flex;
 }
 legend{
